@@ -1,8 +1,8 @@
 import csv
 import os
 
-IP_FILENAME = os.path.join(os.path.dirname(__file__), '/Users/gaparmar/slc15dvo/combined.csv')
-OP_FILENAME = os.path.join(os.path.dirname(__file__), '/Users/gaparmar/slc15dvo/final.csv')
+IP_FILENAME = os.path.join(os.path.dirname(__file__), '<filename>')
+OP_FILENAME = os.path.join(os.path.dirname(__file__), '<filename>')
 
 class time_info:
     def __init__(self,taskname, minutes, seconds):
